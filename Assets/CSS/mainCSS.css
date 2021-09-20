@@ -1,0 +1,411 @@
+.header{
+    background-color: black;
+}
+.imgPL{
+    max-width: 197px;
+    margin: 33px 30px 25px;
+}
+a{  
+    color: black;
+    text-decoration: none;
+}
+ul{
+    font-size: 14px;
+    list-style: none;
+}
+.ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: black;
+    color: red;
+}
+li .dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{background-color: white; color: red;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+h3{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+}
+.col-md-3{
+    float: left;
+    font-size: 17px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 20px;
+}
+.nav{
+    margin:  0px auto;
+}
+b{
+    color: red;
+    font-size: 20px;
+}
+.nav a:hover{
+    background-color: white;
+    color: red;
+}
+.body{
+    background-color: rgb(201, 197, 197);
+    font-size: 15px;
+}
+
+footer{
+    font-size: 14px;
+}
+.foot a:hover{
+    background-color: white;
+    color: red;
+}
+.product-list{
+    margin-top: 8px;
+    display: block;
+}
+.product-list .p-item{
+    margin-bottom: 10px;
+    padding: 0 10px 10px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+}
+.product-list .p-item .p-img{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 80%;
+    overflow: hidden;
+    display: inline-block;
+}
+.product-list .p-item .p-img img{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(1);
+    max-width: 100%;
+    max-height: 100%;
+    transition: .5s ease-in-out;
+    float: left;
+}
+.product-list .p-item .p-brand img{
+    width: auto;
+    height: unset;
+    max-width: 80px;
+}
+.product-list .p-item .p-type{
+    display: block;
+    height: 22px;
+    margin-top: 5px;
+    position: relative;
+}
+.product-list .p-item .p-type .p-lable{
+    list-style: 18px;
+    font-size: 11px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5px;
+    font-style: normal;
+    left: 0;
+    top: 0;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+.product-list .p-item .p-type .new{
+    background-color: #35af45;
+    z-index: 1;
+}
+.p-type .saleoff{
+    background-color: #f28902;
+    z-index: 1;
+}
+.product-list .p-item .p-name{
+    margin: 10px 0;
+    height: 38px;
+    overflow: hidden;
+    font-size: 15px;
+}
+.product-list .p-item .p-name a{
+    text-transform: uppercase;
+}
+.product-list .p-item .p-name a{
+    line-height: 18px;
+    color: black;
+}
+.product-list .p-item .p-unprice{
+    text-decoration: line-through;
+    height: 20px;
+}
+.product-list .p-item span{
+    display: block;
+}
+.product-list .p-item .p-price{
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-list .p-item .p-promotion{
+    font-size: 12px;
+    white-space: nowrap;
+    width: 100%;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+.product-list .p-item span{
+    display: block;
+}
+.baner-main{
+    margin-top: 20px;
+}
+.addCart{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+.carousel-control-prev{
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    background-color: red;
+}
+.carousel-control-next{
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    background-color: red;
+}
+
+.main-order{
+    padding: 20px;
+}
+.main-order .content .list-order .p-item{
+    display: flex;
+    align-items: start;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.main-order .content .list-order .p-item .p-img img{
+    max-width: 30%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+}
+.main-order .content .list-order .p-item .p-entry{
+    width: 100%;
+    max-width: 60%;
+    padding: 0 10px;
+}
+.main-order .content .list-order .p-item .p-entry a{
+    line-height: inherit;
+    font-size: 15px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.main-order .content .list-order .p-item .p-entry ul{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.main-order .content .list-order .p-item .p-entry ul li {
+    position: relative;
+    padding-left: 0;
+}
+.pre-line p{
+    margin: 0px;
+}
+.main-order .content .list-order .p-item .p-price {
+    max-width: 16%;
+    width: 100%;
+    text-align: right;
+    padding-right: 1%;
+}
+.main-order .content .list-order .p-item .p-quality{
+    width: 100%;
+    max-width: 15%;
+    position: relative;
+}
+.main-order .content .list-order .p-item .p-quality .dm_up_down{
+    display: flex;
+    align-items: center;
+}
+.main-order .content .list-order .p-item .p-quality .down {
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    height: 26px;
+    margin-right: -1px;
+    cursor: pointer;
+    font-weight: 700;
+    padding-bottom: 1px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #999;
+}
+.main-order .content .list-order .p-item .p-quality .dm_up_down input {
+    width: 30px;
+    border: 1px solid #e2e2e2;
+    height: 20px;
+}
+.main-order .content .list-order .p-item .p-quality .up {
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    height: 26px;
+    margin-left: -1px;
+    cursor: pointer;
+    font-weight: 700;
+    padding-bottom: 1px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #999;
+}
+.main-order .content .list-order .total {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-order .content .list-order .total .lable {
+    font-size: 20px;
+}
+.main-order .content .list-order .total .right {
+    color: #c8191f;
+    text-align: center;
+    float: right;
+    font-size: 20px;
+}
+.main-order .info-customer{
+    border: 1px solid #e2e2e2;
+    padding: 20px;
+}
+.main-order .info-customer .step .title{
+    margin: 5px -10px 20px;
+    font-size: 18px;
+}
+label{
+    display: inline-block;
+}
+.main-order .info-customer .step-1 .option-group .step_option{
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    width: auto!important;
+    margin-right: 25px;
+}
+.main-order .info-customer .step-1 .option-group .step_option input{
+    background: red;
+}
+.main-order .info-customer .step-1 .item-form input{
+    display: block;
+    padding: 9px 0;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    text-indent: 10px;
+    width: 100%;
+}
+.main-order .info-customer .step-2 .step_option input{
+    position: relative;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+.main-order .info-customer .step-2 .main-order .item-form select{
+    display: block;
+    padding: 9px 0;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    text-indent: 10px;
+    width: 100%;
+}
+.main-order .info-customer .step-2 .main-order .item-form input{
+    display: block;
+    padding: 9px 0;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    text-indent: 10px;
+    width: 100%;
+}
+.main-order .info-customer .content-pay, .main-order .info-customer .method-oder{
+    background-color: #f8f8f8;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.main-order .info-customer .step .btn_next {
+    font-size: 18px;
+    color: #fff;
+    background-color: #c8191f;
+    border: none;
+    display: block;
+    padding: 9px 0;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    text-indent: 10px;
+    width: 100%;
+}
+.head-blog{
+    margin-top: 15px;
+}
+.head-blog h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.main-blog{
+    padding-bottom: 20px;
+}
